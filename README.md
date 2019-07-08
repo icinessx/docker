@@ -5,3 +5,5 @@ curl -sL -o install.sh https://raw.githubusercontent.com/icinessx/docker/master/
 chmod a+x install.sh
 
 ./install.sh
+
+wget https://raw.githubusercontent.com/icinessx/docker/master/docker.sh && bash docker.sh
