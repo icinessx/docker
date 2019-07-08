@@ -14,6 +14,6 @@ apt install -y  apt-transport-https ca-certificates curl gnupg2 software-propert
 curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/debian/gpg | apt-key add -
 echo "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian stretch stable" >>/etc/apt/sources.list
 apt update
-apt install -y docker-ce
+apt install -y docker-engine
 systemctl start docker
 systemctl enable docker
